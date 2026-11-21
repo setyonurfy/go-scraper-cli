@@ -41,7 +41,7 @@ func (f *Fetcher) FecthHTML(targetURL string) (string, error) {
 		return "", fmt.Errorf("status http tidak diharapkan: %d (%s)", resp.StatusCode, http.StatusText(resp.StatusCode))
 	}
 
-	body, err := io.ReadAll(req.Body)
+	body, err := io.ReadAll(resp.Body)
 	if err != nil {
 		return "", fmt.Errorf("gagal membaca body respons: %w", err)
 	}

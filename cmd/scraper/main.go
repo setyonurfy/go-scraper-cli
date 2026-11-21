@@ -3,13 +3,14 @@ package main
 import (
 	"fmt"
 	"go-scraper-cli/internal/fetcher"
+	"go-scraper-cli/internal/parser"
 	"os"
 	"time"
 )
 
 func main() {
 	targetURL := "http://example.com"
-	f := fetcher.New(10 * time.Second)
+	f := fetcher.NewFetcher(10 * time.Second)
 
 	htmlBody, err := f.FecthHTML(targetURL)
 	if err != nil {
@@ -17,12 +18,14 @@ func main() {
 		os.Exit(1)
 	}
 
-	previewLen := len(htmlBody)
-	if previewLen < 300 {
-		previewLen = 300
+	page, err := parser.NewParsedPage(htmlBody, targetURL)
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "Error parse: %v\n", err)
 	}
 
-	fmt.Printf("berhasil mengambil HTML dari %s (total %d byte)\n", targetURL, len(htmlBody))
-	fmt.Println("---Cupllikan HTML---")
-	fmt.Println(htmlBody[:previewLen])
+	fmt.Printf("Judul Halaman : %s\n", page.Title)
+	fmt.Printf("Jumlah Link : %d\n", len(page.Links))
+	for i, link := range page.Links {
+		fmt.Printf(" %d. %s\n", i+1, link)
+	}
 }

@@ -14,7 +14,7 @@ type Fetcher struct {
 	userAgent string
 }
 
-func New(timeout time.Duration) *Fetcher {
+func NewFetcher(timeout time.Duration) *Fetcher {
 	return &Fetcher{
 		client: &http.Client{
 			Timeout: timeout,

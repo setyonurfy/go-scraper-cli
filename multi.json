@@ -1,0 +1,335 @@
+{
+  "source_url": "https://quotes.toscrape.com/,https://quotes.toscrape.com/page/2/",
+  "title": "Multi-Page Scrape (2 targets)",
+  "scraped_at": "2026-11-22T06:52:54.6377Z",
+  "links": [
+    {
+      "url": "https://quotes.toscrape.com/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/login",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/author/Albert-Einstein",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/change/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/deep-thoughts/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/thinking/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/world/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/author/J-K-Rowling",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/abilities/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/choices/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/inspirational/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/life/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/live/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/miracle/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/miracles/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/author/Jane-Austen",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/aliteracy/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/books/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/classic/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/humor/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/author/Marilyn-Monroe",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/be-yourself/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/adulthood/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/success/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/value/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/author/Andre-Gide",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/love/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/author/Thomas-A-Edison",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/edison/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/failure/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/paraphrased/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/author/Eleanor-Roosevelt",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/misattributed-eleanor-roosevelt/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/author/Steve-Martin",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/obvious/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/simile/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/page/2/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/love/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/inspirational/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/life/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/humor/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/books/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/reading/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/friendship/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/friends/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/truth/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/simile/",
+      "type": "internal"
+    },
+    {
+      "url": "https://www.goodreads.com/quotes",
+      "type": "external"
+    },
+    {
+      "url": "https://www.zyte.com",
+      "type": "external"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/friends/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/heartbreak/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/sisters/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/courage/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/simplicity/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/understand/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/author/Bob-Marley",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/author/Dr-Seuss",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/fantasy/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/author/Douglas-Adams",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/navigation/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/author/Elie-Wiesel",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/activism/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/apathy/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/hate/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/indifference/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/opposite/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/philosophy/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/author/Friedrich-Nietzsche",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/friendship/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/lack-of-friendship/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/lack-of-love/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/marriage/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/unhappy-marriage/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/author/Mark-Twain",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/contentment/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/author/Allen-Saunders",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/fate/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/misattributed-john-lennon/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/planning/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/tag/plans/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/page/1/",
+      "type": "internal"
+    },
+    {
+      "url": "https://quotes.toscrape.com/page/3/",
+      "type": "internal"
+    }
+  ]
+}
